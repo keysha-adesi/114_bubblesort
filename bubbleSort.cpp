@@ -30,7 +30,7 @@ void bublesortAraay() {   //procedur untuk mengurutkan array dengan
      int pass =1;  //step 1
 
      do { 
-          for (int j = 0; j <=n -1 pass; j++) { // step 2
+          for (int j = 0; j <=n -1 -pass; j++) { // step 2
             if(arr[j] > arr[j]) { // step 3
                 int temp; 
                 temp = arr [j];

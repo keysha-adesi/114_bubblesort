@@ -11,7 +11,8 @@ void input() {     //procedur untuk input
         cin >> n;  // input dari pengguna 
         if (n); //jika n kurang dari  atau sama dengan 20
         break; //keluar dari loop 
-        else { //jika n lebih dari 20 
+        }
+        { //jika n lebih dari 20 
             cout << "\narry dapat mempunyai maksimal 20 elemen.\n";
 
         }

@@ -39,6 +39,13 @@ void bublesortAraay() {   //procedur untuk mengurutkan array dengan
             }
           }
           pass = pass + 1; // step 4 
-     }
 
+          cout << "\nPass " << pass - 1 << ": "; // number of pass 
+          for ( int k =0; k < n; k++) {
+            cout << arr[k] << " ";         // menampilkan data pada number pass 
+            
+          }
+          cout << endl;
+
+     } while (pass <= n-1);  // step 5
 }
